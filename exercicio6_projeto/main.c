@@ -6,20 +6,25 @@
 15 5!
 31 − ...*/
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "funcaoFatorial.c"
 
-int main(){
+int main()
+{
     int DIVIDENDO, CONT;
     float SOMA;
     DIVIDENDO = 1;
     SOMA = 1.0;
-    for(CONT = 2; CONT <= 2; CONT++){
-        if(CONT%2==0){
-            SOMA = SOMA-(funcaoFatorial(CONT)/((DIVIDENDO*2)+1));
+    for (CONT = 2; CONT <= 50; CONT++)
+    {
+        if (CONT % 2 == 0)
+        {
+            SOMA = (SOMA - (funcaoFatorial(CONT) / ((DIVIDENDO * 2) + 1)));
         }
-        else{
-            SOMA = SOMA+(funcaoFatorial(CONT)/((DIVIDENDO*2)+1));
+        else
+        {
+            SOMA = (SOMA + (funcaoFatorial(CONT) / ((DIVIDENDO * 2) + 1)));
         }
         DIVIDENDO++;
     }
