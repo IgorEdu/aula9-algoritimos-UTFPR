@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1684197603 source:f:\users\a2578301\desktop\lista7-algoritimos\exercicio6_projeto\funcaofatorial.c
+1684197957 source:f:\users\a2578301\desktop\lista7-algoritimos\exercicio6_projeto\funcaofatorial.c
 	<stdio.h>
 	<stdlib.h>
 
-1684197920 source:f:\users\a2578301\desktop\lista7-algoritimos\exercicio6_projeto\main.c
+1684198285 source:f:\users\a2578301\desktop\lista7-algoritimos\exercicio6_projeto\main.c
 	<stdio.h>
 	<stdlib.h>
 

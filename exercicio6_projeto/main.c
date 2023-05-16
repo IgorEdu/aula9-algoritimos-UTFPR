@@ -11,18 +11,19 @@
 
 int main(){
     int DIVIDENDO, CONT;
-    long long SOMA;
+    float SOMA;
     DIVIDENDO = 1;
     SOMA = 1.0;
-    for(CONT = 2; CONT <= 50; CONT++){
+    for(CONT = 2; CONT <= 2; CONT++){
         if(CONT%2==0){
             SOMA = SOMA-(funcaoFatorial(CONT)/((DIVIDENDO*2)+1));
         }
         else{
             SOMA = SOMA+(funcaoFatorial(CONT)/((DIVIDENDO*2)+1));
         }
+        DIVIDENDO++;
     }
-    printf("A soma foi %lld\n", SOMA);
+    printf("A soma foi %f\n", SOMA);
     system("pause");
     return 0;
 }
