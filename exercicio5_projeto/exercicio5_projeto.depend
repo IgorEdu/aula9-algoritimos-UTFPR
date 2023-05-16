@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1684195058 source:f:\users\a2578301\desktop\lista7-algoritimos\exercicio5_projeto\main.c
+1684196133 source:f:\users\a2578301\desktop\lista7-algoritimos\exercicio5_projeto\main.c
 	<stdio.h>
 	<stdlib.h>
+	"funcaoFatorial.c"
 
-1684193867 f:\users\a2578301\desktop\lista7-algoritimos\exercicio5_projeto\funcaofatorial.c
+1684195113 f:\users\a2578301\desktop\lista7-algoritimos\exercicio5_projeto\funcaofatorial.c
 	<stdio.h>
 	<stdlib.h>
 

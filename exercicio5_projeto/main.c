@@ -4,6 +4,7 @@ usando os n primeiros termos do somatório. O valor de X e de n é fornecido pelo 
 
 #include<stdio.h>
 #include<stdlib.h>
+#include"funcaoFatorial.c"
 
 int main(){
     int N, CONT, NUM_FAT;
@@ -14,7 +15,7 @@ int main(){
     scanf("%d", &N);
     printf("Digite o valor de X\n");
     scanf("%f", &X);
-    for(CONT = 1; CONT <= N; CONT++){
+    for(CONT = 2; CONT <= N; CONT++){
         if(CONT%2==0){
             S = S-(X*(CONT*2))/funcaoFatorial(NUM_FAT);
         }
